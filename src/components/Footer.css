@@ -1,0 +1,16 @@
+.footer {
+    text-align: center;
+    font-family: 'Overlock', cursive;
+    color:#000000;
+    margin-top: 10px;
+    font-size: 12px;	
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #333;
+}
