@@ -2,67 +2,6 @@ h1 {
     font-family: 'Overlock', cursive;
     text-align: center;
     margin-bottom: 30px;
+    margin-top: 0;
 }
 
-#container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    padding: 20px;
-    width: 100%;
-    border-radius: 5px;
-}
-
-#quote-box {
-    padding: 20px 40px;
-    background-color: #fff;
-    border-radius: 5px;
-}
-
-p {
-    font-family: 'Overlock', cursive;
-    font-size: 1.20em;
-    margin: 10px 0px;
-    text-align: center;
-}
-
-#text {
-    font-family: 'Neucha', cursive;
-    font-size: 1.95em;
-    font-weight: bold;
-    text-align: center;
-    font-style: italic;
-    padding: 0px;
-    margin: 0px;
-}
-
-#author {
-    margin-top: 5px;
-    font-size: 1.2em;
-    text-align: right;
-}
-
-.container-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
-#new-quote {       
-    height:38px;
-    border:none;
-    border-radius:3px;
-    color:#ffffff;
-    font-size:0.85em;
-    padding: 6px 18px;
-    cursor:pointer;
-}
-
-#new-quote:hover {
-    opacity: 0.7;
-}
-
-#tweet-quote:hover {
-    opacity: 0.7;
-}

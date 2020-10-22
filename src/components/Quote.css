@@ -1,0 +1,15 @@
+#text {
+    font-family: 'Neucha', cursive;
+    font-size: 1.95em;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+
+#author {
+    margin-top: 5px;
+    font-size: 1.2em;
+    text-align: right;
+}
