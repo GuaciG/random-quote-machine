@@ -1,43 +1,33 @@
 # Random Quote Machine
 
-This project was built as a challenge on freecodecamp course. It was part of Responsive Web Design Certification in FreeCodeCamp.
+This project was built as a challenge on freecodecamp course. It was part of Front End Libraries Certification in FreeCodeCamp.
 
-![Technical Documentation Page](https://res.cloudinary.com/drpcjt13x/image/upload/v1603025650/Proyectos/Technical%20Documentation%20Page/Technical_Documentation_Page_ssaqsb.png "Technical Documentation Page")
+![Random Quote Machine](https://res.cloudinary.com/drpcjt13x/image/upload/v1603447084/Proyectos/Random%20Quote%20Machine/Random_Quote_Machine_c8dan3.png "Random Quote Machine")
+
 
 ## User story
 
-- [x] **User Story #1:** I can see a main element with a corresponding `id="main-doc"`, which contains the page's main content (technical documentation). 
+- [x] **User Story #1:** I can see a wrapper element with a corresponding `id="quote-box"`. 
 
-- [x] **User Story #2:** Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
+- [x] **User Story #2:** Within #quote-box, I can see an element with a corresponding `id="text"`.
 
-- [x] **User Story #3:** The first element within each .main-section should be a header element which contains text that describes the topic of that section.
+- [x] **User Story #3:** Within #quote-box, I can see an element with a corresponding `id="author"`.
 
-- [x] **User Story #4:** Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
+- [x] **User Story #4:** Within #quote-box, I can see a clickable element with a corresponding `id="new-quote"`.
 
-- [x] **User Story #5:** The .main-section elements should contain at least 10 p elements total (not each).
+- [x] **User Story #5:** Within #quote-box, I can see a clickable a element with a corresponding `id="tweet-quote"`.
  
-- [x] **User Story #6:** The .main-section elements should contain at least 5 code elements total (not each).
+- [x] **User Story #6:** On first load, my quote machine displays a random quote in the element with `id="text"`.
 
-- [x] **User Story #7:** The .main-section elements should contain at least 5 li items total (not each).
+- [x] **User Story #7:** On first load, my quote machine displays the random quote's author in the element with `id="author"`.
 
-- [x] **User Story #8:** I can see a nav element with a corresponding `id="navbar"`.
+- [x] **User Story #8:** When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.
 
-- [x] **User Story #9:** The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
+- [x] **User Story #9:** My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.
 
-- [x] **User Story #10:** Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.
+- [x] **User Story #10:** I can tweet the current quote by clicking on the #tweet-quotea element. This a element should include the "twitter.com/intent/tweet" path in its href attribute to tweet the current quote.
 
-- [x] **User Story #11:** The header element in the navbar must come before any link (a) elements in the navbar.
-
-- [x] **User Story #12:** Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
-
-- [x] **User Story #13:** When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.
-
-- [x] **User Story #14:** On regular sized devices (laptops, desktops), the element with `id="navbar"` should be shown on the left side of the screen and should always be visible to the user.
-
-- [x] **User Story #15:** My Technical Documentation page should use at least one media query.
-
-
-
+- [x] **User Story #11:** The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 
 
 
