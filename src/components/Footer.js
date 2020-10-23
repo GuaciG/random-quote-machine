@@ -2,7 +2,6 @@ import React from 'react';
 import './Footer.css';
 
 
-//Child component Footer.
 const Footer = () => {
     return (
       <div className="footer"> 

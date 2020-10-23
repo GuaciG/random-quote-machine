@@ -39,7 +39,6 @@ class Quoter extends React.Component {
       return Math.floor(Math.random() * colors.length);
     }
 
-
     render(){
        
         return (
@@ -64,7 +63,4 @@ class Quoter extends React.Component {
     }
 };
 
-
-
- 
 export default Quoter;
